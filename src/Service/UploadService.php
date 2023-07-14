@@ -13,7 +13,7 @@ class UploadService
     /**
      * @param \Picsur\Client\Service\RequestService $requestService
      */
-    public function __construct(private readonly RequestService $requestService)
+    public function __construct(private RequestService $requestService)
     {
     }
 

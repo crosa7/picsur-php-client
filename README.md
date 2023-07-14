@@ -5,7 +5,7 @@ The other possible actions will be implemented in the future or on request.
 
 ## Usage
 
-```
+```php
 $picsurClient = new PicsurClient('your-api-key', 'http://your-host', 1234); (port nor required)
 
 // For upload

@@ -17,9 +17,9 @@ class PicsurClient
      * @param int|null $port
      */
     public function __construct(
-        private readonly string $apiKey,
-        private readonly string $host,
-        private readonly ?int $port = null
+        private string $apiKey,
+        private string $host,
+        private ?int $port = null
     ) {
         $this->serviceFactory = new ServiceFactory($this->apiKey, $this->host, $this->port);
     }

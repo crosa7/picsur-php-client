@@ -29,12 +29,14 @@
         }
     },
     "require": {
+        "php": "^8.0",
         "guzzlehttp/guzzle": "^7.7"
     },
     "require-dev": {
         "pestphp/pest": "^2.8",
         "mockery/mockery": "^1.6"
     },
+    "minimum-stability": "stable",
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true

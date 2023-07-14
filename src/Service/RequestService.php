@@ -21,10 +21,10 @@ class RequestService
      * @param int|null $port
      */
     public function __construct(
-        private readonly string $apiKey,
-        private readonly string $host,
-        private readonly Client $guzzleClient,
-        private readonly ?int $port = null
+        private string $apiKey,
+        private string $host,
+        private Client $guzzleClient,
+        private ?int $port = null
     ) {
     }
 
