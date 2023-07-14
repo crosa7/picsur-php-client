@@ -1,0 +1,43 @@
+{
+    "name": "crosa7/picsur-php-client",
+    "type": "library",
+    "description": "Picsur client for php",
+    "keywords": [
+        "picsur",
+        "pictures",
+        "images",
+        "optimization",
+        "processing",
+        "cropping",
+        "resize"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Rosa",
+            "email": "crosa7000@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Picsur\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Picsur\\Client\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.8",
+        "mockery/mockery": "^1.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
