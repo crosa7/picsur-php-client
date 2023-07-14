@@ -3,6 +3,11 @@
 A simple php client for [@CaramelFur/Picsur](https://github.com/CaramelFur/Picsur) image service. Currently it only supports upload and delete.
 The other possible actions will be implemented in the future or on request.
 
+## Installation
+```
+composer require crosa7/picsur-php-client
+```
+
 ## Usage
 
 ```php
